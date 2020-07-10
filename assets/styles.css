@@ -1,0 +1,33 @@
+body {
+    background-color: #202020;
+    color: #fafafa;
+    margin: 60px auto;
+    width: 70%;
+    max-width: 60rem;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.jsonjson {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.jsonderulo {
+    text-indent: 40px;
+}
+
+footer {
+    font-size: 1.1rem;
+    padding-top: 50px;
+    bottom: 20px;
+    left: 0;
+    position: relative;
+    width: 100%;
+
+}
+
+footer>a {
+    color: rgb(151, 150, 224);
+    text-decoration: none !important;
+}
