@@ -1,11 +1,11 @@
 body {
-    background-color: #022c43;
+    background-color: #002235;
     color: #ffd700;
     margin: 60px auto;
     width: 70%;
     max-width: 60rem;
     margin: 0 auto;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'DM Mono', monospace;
 }
 
 .jsonjson {
@@ -13,26 +13,27 @@ body {
     font-size: 3rem;
 }
 
-.json{
+.json {
     background-color: #0e4563;
     padding: 30px;
     width: 80%;
     border-radius: 10px;
+    color: #b4e726;
 }
 
 .tab {
     margin-left: 40px;
 }
 
-.code{
+.code {
     margin: 20px 0px 20px 0px;
     background-color: #2f3032;
     padding: 30px;
     border-radius: 5px;
+    font-size: 1rem;
 }
 
 footer {
-    letter-spacing: 1.1px;
     font-size: 1.1rem;
     padding-top: 50px;
     bottom: 20px;
@@ -40,13 +41,14 @@ footer {
     position: relative;
     width: 100%;
 }
+
 a {
-    color:#d65a31;
+    color: #d65a31;
     text-decoration: none !important;
 }
 
 footer>a {
-    color:#d65a31;
+    color: #d65a31;
     text-decoration: none !important;
 }
 
@@ -58,15 +60,22 @@ hr {
     margin-bottom: 30px;
     margin-left: 0;
     width: 70%;
-  }
-
-  video{
-    border-radius: 7px;
-  }
-
-
-  @media only screen and (max-width: 600px) {
-video{
-    width: 100%;
 }
-  }
+
+video {
+    border-radius: 7px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    video {
+        width: 100%;
+    }
+
+    .code {
+        font-size: 0.85rem;
+    }
+    body {
+        width: 80%;
+    }
+}
