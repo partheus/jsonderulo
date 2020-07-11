@@ -1,6 +1,6 @@
 body {
-    background-color: #202020;
-    color: #fafafa;
+    background-color: #022c43;
+    color: #ffd700;
     margin: 60px auto;
     width: 70%;
     max-width: 60rem;
@@ -13,21 +13,46 @@ body {
     font-size: 3rem;
 }
 
+.json{
+    background-color: #0e4563;
+    padding: 30px;
+    width: 80%;
+    border-radius: 20px;
+}
+
 .jsonderulo {
-    text-indent: 40px;
+    margin-left: 40px;
 }
 
 footer {
+    letter-spacing: 1.1px;
     font-size: 1.1rem;
     padding-top: 50px;
     bottom: 20px;
     left: 0;
     position: relative;
     width: 100%;
-
+}
+a {
+    color:#d65a31;
+    text-decoration: none !important;
 }
 
 footer>a {
-    color: rgb(151, 150, 224);
+    color:#d65a31;
     text-decoration: none !important;
 }
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #255965;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    width: 70%;
+  }
+
+  video{
+    border-radius: 7px;
+  }
