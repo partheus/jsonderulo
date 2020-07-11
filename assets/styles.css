@@ -17,11 +17,18 @@ body {
     background-color: #0e4563;
     padding: 30px;
     width: 80%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .jsonderulo {
     margin-left: 40px;
+}
+
+.code{
+    margin: 20px 0px 20px 0px;
+    background-color: #2f3032;
+    padding: 30px;
+    border-radius: 5px;
 }
 
 footer {
@@ -55,4 +62,11 @@ hr {
 
   video{
     border-radius: 7px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+video{
+    width: 100%;
+}
   }
