@@ -14,7 +14,7 @@ body {
 }
 
 .json {
-    background-color: #0e4563;
+    background-color: #073249;
     padding: 30px;
     width: 80%;
     border-radius: 10px;
@@ -27,7 +27,7 @@ body {
 
 .code {
     margin: 20px 0px 20px 0px;
-    background-color: #2f3032;
+    background-color: #232425;
     padding: 30px;
     border-radius: 5px;
     font-size: 1rem;
@@ -73,7 +73,8 @@ video {
     }
 
     .code {
-        font-size: 0.85rem;
+        font-size: 0.8rem;
+        padding: 10px;
     }
     body {
         width: 80%;
